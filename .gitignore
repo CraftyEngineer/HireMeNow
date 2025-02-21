@@ -1,0 +1,30 @@
+# Ignore Python virtual environments
+venv/
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+
+# Ignore logs and temporary files
+*.log
+*.sqlite3
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore IDE-specific files (PyCharm, JetBrains)
+.idea/
+
+# Ignore dependencies if using poetry or pipenv
+.poetry/
+Pipfile
+Pipfile.lock
+
+# Ignore node_modules if any frontend is included
+node_modules/
